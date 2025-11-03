@@ -1,0 +1,70 @@
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      background-color: #f8f9fa;
+    }
+    .sidebar {
+      background-color: #004aad;
+      color: white;
+      min-height: 100vh;
+      width: 220px;
+      padding: 20px 10px;
+      position: fixed;
+    }
+    .sidebar .nav-link {
+      color: white;
+      font-weight: bold;
+      margin-bottom: 15px;
+      display: block;
+      padding: 5px 10px;
+    }
+    .sidebar .nav-link:hover {
+      background-color: rgba(255,255,255,0.1);
+      border-radius: 5px;
+    }
+    .header {
+      margin-left: 220px;
+      padding: 20px 30px 0 30px;
+    }
+    .content {
+      margin-left: 220px;
+      padding: 20px 30px;
+    }
+    .card-dark {
+      background-color: #343a40;
+      color: white;
+      border-radius: 10px;
+      padding: 25px;
+    }
+    .form-label {
+      color: #adb5bd;
+    }
+    .form-control, .form-select {
+      background-color: #495057;
+      color: white;
+      border: none;
+    }
+    .form-control::placeholder {
+      color: #ced4da;
+    }
+    .btn-custom {
+      background-color: #198754;
+      color: white;
+    }
+    .btn-outline-custom {
+      border: 1px solid #198754;
+      color: #198754;
+    }
+    .btn-outline-custom:hover {
+      background-color: #198754;
+      color: white;
+    }
+    .log-out {
+      position: absolute;
+      bottom: 20px;
+      width: calc(100% - 20px);
+    }
+
+    .log-out a{
+        text-decoration: none;
+    }

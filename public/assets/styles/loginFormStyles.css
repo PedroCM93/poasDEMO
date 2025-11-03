@@ -1,0 +1,31 @@
+    body {
+      background-color: #495057;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .login-container {
+      background-color: #343a40;
+      color: #495057;;
+      border-radius: 12px;
+      padding: 30px;
+      width: 100%;
+      max-width: 400px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
+    .form-label {
+      color: #adb5bd;
+    }
+    .form-control {
+      background-color: #495057;
+      color: white;
+      border: none;
+    }
+    .btn-login {
+      background-color: #198754;
+      color: white;
+    }
+    .form-control::placeholder {
+      color: #ced4da;
+    }

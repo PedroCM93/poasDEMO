@@ -1,0 +1,8 @@
+#buildConcentratedDocumentPoas{
+    float:right;
+}
+
+/* Separate the div that contains the button that generates the concentrated document from the datatable */
+#containerBuildConcentratedPoasButton{
+    margin-bottom: 60px;
+}
