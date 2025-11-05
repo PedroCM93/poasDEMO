@@ -1,6 +1,7 @@
 *** REQUISITOS ***
 
 PHP 8.0 o superior
+
 MySQL 8 o superior
 
 
