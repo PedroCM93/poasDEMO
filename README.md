@@ -21,3 +21,19 @@ Por ejemplo, si usas xampp : git clone linkdelrepositorio "cd:/xampp/htdocs"
 
 4. ¡ Disfruta de la demo !
 
+
+// USO DE LA API //
+
+Supongamos que instalaste este repositorio en tu entorno local. Entonces, deberías poder acceder a la APi de esta forma:
+
+http://localhost/poas/public/api.php
+
+Ahora bien, el endpoint para consultar los POAS es el siguiente:
+
+Método GET : => http://localhost/poas/public/api.php?poaId=ID_POA
+
+
+Donde ID_POA es el número del ID del POA que quieres consultar.
+
+Si se consulta un ID de POA válido ( Que exista ), entonces se obtiene la información del mismo. Caso contrario, se obtiene un mensaje alusivo de que no se encontró el POA y un status 404 ( No encontrado )
+
